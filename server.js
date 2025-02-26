@@ -7,6 +7,8 @@ const passport = require('passport');
 const passportLocalStrategy = require('./config/passportLocalStrategy');
 const session = require('express-session');
 
+// middleware
+
 server.set('view engine', 'ejs');
 server.set("views", path.join(__dirname, "views"));
 
